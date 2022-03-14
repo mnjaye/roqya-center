@@ -1,0 +1,34 @@
+// ****************************** Commom Variable ******************************
+
+$separator : 20px;
+
+
+// ****************************** Commom Variable ******************************
+// ****************************** specialites  ************************************
+
+.card-symptome {
+  border-radius: 8px;
+  // border: 1px solid rgb(216, 211, 211);
+  background-color: white ;
+  min-height: 400px;
+}
+
+.symptome-title{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  margin-bottom:  $separator;
+  margin-top : 1/2 * $separator;
+}
+.symptome-description{
+
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 33px;
+
+  color: #000000;
+}
+
+// ****************************** specialites  ************************************
