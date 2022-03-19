@@ -21,6 +21,8 @@ import {
   DesktopOutline
 } from '@ant-design/icons-angular/icons';
 import { NzButtonModule } from 'ng-zorro-antd/button';
+import { NzCardModule } from 'ng-zorro-antd/card';
+import { NzAvatarModule } from 'ng-zorro-antd/avatar';
 import { SymptomeCardComponent } from './symptome-card/symptome-card.component';
 import { ServiceCardComponent } from './service-card/service-card.component';
 
@@ -51,7 +53,9 @@ const icons: IconDefinition[] = [
     NzMenuModule,
     NzIconModule.forChild(icons),
     NzButtonModule,
-    NzDividerModule
+    NzDividerModule,
+    NzCardModule,
+    NzAvatarModule
   ]
 })
 

@@ -11,24 +11,55 @@ $separator : 20px;
   // border: 1px solid rgb(216, 211, 211);
   background-color: white ;
   min-height: 400px;
+  padding: 20px;
 }
 
 .symptome-title{
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: 600;
+  font-size: 22px;
   line-height: 20px;
   text-align: center;
-  color: #000000;
-  margin-bottom:  $separator;
-  margin-top : 1/2 * $separator;
+  color: white;
+
+  //margin-bottom:  $separator;
+  //margin-top : 1/2 * $separator;
+  height: 40px;
+
+}
+.symptome-title-container{
+  background-color: #008080;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);
 }
 .symptome-description{
 
   font-weight: 300;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 33px;
+  color: #fff;
+  padding: 20px;
+  text-align:center;
 
-  color: #000000;
+}
+.symptome-description-container{
+  padding-top : 10px;
+  background-color: #008080;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  height: fit-content;
+
 }
 
+.symptome-container {
+  padding: 20px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+
+}
+
+
+.symptome-description{
+  height: 250px;
+  padding-top: 0px;
+}
 // ****************************** specialites  ************************************

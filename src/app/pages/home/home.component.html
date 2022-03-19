@@ -101,30 +101,31 @@
       <div nz-row nzJustify="space-around" >
 
 
-        <div nz-col nzSpan="4" class="card-symptome">
+        <div nz-col nzSpan="5" class="card-symptome">
           <symptome-card title="Des blocages anormaux et repétitifs "
                            description="Au niveau du travail, de l'argent, du mariage, (Faru Rap, Thioro Rap),
                            des études, des voyages, des promesses, etc... C'est quand les blocages sont anormaux et répétitifs
                            jusqu'a etre systématique qu'on sait que c'est la sorcellerie."></symptome-card>
         </div>
 
-        <div nz-col nzSpan="4" class="card-symptome">
+        <div nz-col nzSpan="5" class="card-symptome">
           <symptome-card title="Etats de Santé Anormaux"
-                         description="maux de tete,m aux de ventre, impuissance,sterilite,douleurs diverses,
-                                      douleurs inexplicable et permanentes, maladies bizarres qu'un medcin ne peut decrire. "></symptome-card>
+                         description="Vous avez des difficultés médicales maux de tête,maux de ventre, impuissance,stérilité,douleurs diverses,
+                                      douleurs inexplicables et permanentes. Des maladies bizarres qu'un médecin ne peut comprendre."></symptome-card>
         </div>
 
-        <div nz-col nzSpan="4" class="card-symptome">
+        <div nz-col nzSpan="5" class="card-symptome">
           <symptome-card title="Des Perturbations mentales "
-                         description="colere, deprime, hallucination,tristesse, peur, oubli,doute
+                         description="Vous êtes mentalement instable, souvent en  colère, deprimè, hallucination,tristesse, peur, oubli,doute
                                       ,douleur, manque de confiance en soi ; entendre ou sentir des choses
                                        bizzares inexplicables risquant de vous mener jusqu'a la folie."></symptome-card>
         </div>
 
-        <div nz-col nzSpan="4" class="card-symptome">
+        <div nz-col nzSpan="5" class="card-symptome">
           <symptome-card title="Des cauchemars"
-                         description="Des reves de poursuites,chiens, boeufs, serpents, policiers,
-                              eaux, monter ou tomber, des morts, des reves sexuels, bebes, et vehicules.Tous les reves bizarres."></symptome-card>
+                         description="Des rêves de poursuites,chiens, boeufs, serpents, policiers,
+                              eaux, monter ou tomber, des morts, des reves sexuels, bebes, et vehicules.
+                              Si ça vous arrive souvent et de façon continue il est temps de vous faire consulter."></symptome-card>
         </div>
 
 
@@ -250,6 +251,30 @@
 
   <div nz-row >
 
+    <div nz-col nzSpan="6">
+      <nz-card style="width:300px;" [nzCover]="coverTemplate" [nzActions]="[actionSetting, actionEdit, actionEllipsis]">
+        <nz-card-meta
+          nzTitle="Card title"
+          nzDescription="This is the description"
+          [nzAvatar]="avatarTemplate"
+        ></nz-card-meta>
+      </nz-card>
+      <ng-template #avatarTemplate>
+        <nz-avatar nzSrc="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"></nz-avatar>
+      </ng-template>
+      <ng-template #coverTemplate>
+        <img alt="example" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png" />
+      </ng-template>
+      <ng-template #actionSetting>
+        <i nz-icon nzType="setting"></i>
+      </ng-template>
+      <ng-template #actionEdit>
+        <i nz-icon nzType="edit"></i>
+      </ng-template>
+      <ng-template #actionEllipsis>
+        <i nz-icon nzType="ellipsis"></i>
+      </ng-template>
+    </div>
   </div>
 
    <!-- Localisation  -->
